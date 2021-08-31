@@ -1,0 +1,78 @@
+
+h1 {
+    text-align: center;
+}
+ 
+div {
+   border: 3px solid black;  
+   margin: 100px auto;
+} 
+#large {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+}
+#medium {
+   width: 300px; 
+   height: 300px;
+   background-color: blue;
+}
+#small {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+ div {
+    border: 3px solid black;
+    width: 500px; 
+    height: 500px;
+    margin: 100px auto;
+    background-color: red;
+}
+div div {
+    width: 300px;
+    height: 300;
+    background-color: blue;
+}
+div div div {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+td {
+  border: 3px solid black;  
+}    
+td{
+    width: 100px;
+    height: 100px;
+}
+table {
+    margin: auto;
+}
+.top {
+    border-top: 3px solid black;
+}
+.right {
+    border-right: 3px solid black;
+}
+.bottom {
+    border-bottom: 3px solid black;
+}
+.left {
+    border-left: 3px solid black;
+}
+#one,#five,td:nth-of-type(1),td:nth-of-type(5){
+   background-color: red; 
+}
+#two,#three,#four {
+    background-color:blue;
+}
+.top.bottom.left.right {
+    background-color: white;
+} 
+
+
+
+
